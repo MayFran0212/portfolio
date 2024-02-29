@@ -290,6 +290,12 @@ body {
     .cabecalho__menu {
         justify-content: center;
     }
+
+    .cabecalho__menu__link {
+       font-size: 1rem;
+       margin: 0 1px;
+       padding: 10px 0px;
+    }
    
     .home {
         flex-direction: column-reverse;
@@ -298,5 +304,15 @@ body {
 
     .home__conteudo {
         width: auto;
+    }
+
+      .home__imagem {
+        width: 100%;
+    }
+
+    .home__links__navegacao {
+        font-size: 1.25rem;
+        padding: 21.5px 0;
+        width: 100%;
     }
 }
